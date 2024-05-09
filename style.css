@@ -1,0 +1,100 @@
+/* Main body styling */
+body {
+    background-color: #5B2C6F; /* Dark purple background */
+    font-family: 'Montserrat', sans-serif; /* Default font for the body */
+    color: #333; /* Dark grey text color */
+    line-height: 1.7; /* Line spacing */
+}
+
+/* Container styling */
+.container {
+    width: 700px; /* Fixed width for the container */
+    margin: 40px auto; /* Centers the container and adds 40px margin on top and bottom */
+}
+
+/* Card styles */
+.card-white {
+    background-color: #FFECDB; /* Light orange background for cards */
+    border: 5px solid #E6D5C3; /* Adding a border */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 20px; /* Padding to avoid content touching the edges */
+    margin-bottom: 20px; /* Space between cards */
+    text-align: center; /* Centers text horizontally */
+}
+
+/* Card hover effect */
+.card-white:hover {
+    background-color: #FDE3CF; /* Light orange background on hover */
+    border-color: #FFCBA4; /* Lighter border color on hover */
+    box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+
+/* Header styles */
+h1, h2, h3 {
+    font-family: 'Sedan SC', serif; /* Sedan SC font for headers */
+    color: #5B2C6F; /* Dark purple color */
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px; /* Space below h1 */
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 15px; /* Space below h2 */
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 10px; /* Space below h3 */
+}
+
+ul {
+    list-style: none; /* Removes bullets */
+    padding-left: 0; /* Removes padding on the left side */
+}
+
+/* Link styles */
+a {
+    color: #2980b9; /* Blue color for links */
+    text-decoration: none; /* No underline */
+    transition: color 0.3s ease; /* Color transition for hover effect */
+}
+
+a:hover {
+    color: #3498db; /* Lighter blue on hover */
+}
+
+.img-circle {
+    border-radius: 50%;
+    border: 5px solid #5B2C6F; /* Adding a border */
+    width: 200px; /* Set the width as desired */
+    height: 200px; /* Set the height to maintain aspect ratio */
+}
+
+.btn-link {
+    background-color: #5B2C6F; /* Purple background */
+    color: white; /* White text for visibility */
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block; /* Necessary to apply padding and border-radius */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s ease; /* Smooth transition for hover */
+}
+
+.btn-link:hover {
+    background-color: #e0e0e0; /* Slightly darker on hover */
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0;
+}
+
+.list-inline > li {
+    display: inline;
+    margin-right: 20px; /* Space between items */
+}
